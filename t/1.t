@@ -9,7 +9,7 @@ use Test::More tests => 20;
 BEGIN { 
 	use_ok('Config::Frontend::Tie');
 	use_ok('Config::Frontend');
-	use_ok('Config::Frontend::String');
+	use_ok('Config::Backend::String');
 };
 
 #########################

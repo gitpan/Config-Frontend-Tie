@@ -3,7 +3,7 @@ package Config::Frontend::Tie;
 use strict;
 use Config::Frontend;
 
-our $VERSION='0.01';
+our $VERSION='0.02';
 
 sub TIEHASH {
   my ($class,$conf)=@_;
